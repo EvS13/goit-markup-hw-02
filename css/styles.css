@@ -1,19 +1,55 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --button-br-color: #2196F3;
+    --button-color: #FFFFFF;
+    --primary-br-color:#FFFFFF;
+    --secondary-br-color:#F5F4FA;
+    --footer-br-color: #2F303A;
+}
+
+
+
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* лого #000000 */
+/* лого2 #2196F3 */
+/* цвет заливки подвала #2F303A */
+/* кнопка #FFFFFF */
+/* вторичный цвет заливки #F5F4FA */
+/* первичный цвет заливки #FFFFFF */
+
+
+
+
+
+/* body */
+
 .body {
     background-color: #ffffff;
-    color: #757575;
+    color: var(--primary-text-color);
 }
+/* header */
 
 .header {
     background-color: #ffffff;
-    color: #212121;
+    color: var(--title-text-color);
 }
+
+/* logo */
 
 .logo{
     color: #000000 ;
 }
 
-.logo2 {
-   color: #2196F3;
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.logo-primary {
+   color:var(--accent-color);
 }
 
 .list {
@@ -23,28 +59,88 @@
 /* site-nav */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* link-nav */
+
 .link-nav .link {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .link-nav .link:hover,
 .link-nav .link:focus {
-    color:  #2196F3;
+    color:  var(--accent-color);
 }
 
-/* вторичный цвет текста #212121 */
-/* основной цвет текста #757575 */
-/* лого #000000 */
-/* лого2 #2196F3 */
-/* подвал #2F303A */
-/* кнопка #FFFFFF */
-/* вторичный цвет заливки #F5F4FA */
-/* первичный цвет заливки #FFFFFF */
+/* hero */
+
+.hero {
+    background-color: #2F303A ;
+}
+
+.hero .title {
+    color: #ffffff;
+}
+
+/* feature */
+
+.feature .title {
+    color: var(--title-text-color);
+}
+
+.feature .text {
+    color: var(--primary-text-color);
+}
+
+/* work */
+
+.work .title {
+    color: var(--title-text-color);
+}
+
+/* team */
+
+.team {
+    background-color: var(--secondary-br-color);
+}
+
+.team .team-title {
+   color: var(--title-text-color);
+}
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.team .text {
+    color: var(--primary-text-color);
+}
+
+/* button */
+
+.button {
+    color: var(--button-color);
+    background-color: var(--button-br-color);
+}
+
+.footer {
+    background-color: var(--footer-br-color);
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6)
+}
