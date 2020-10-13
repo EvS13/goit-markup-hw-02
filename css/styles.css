@@ -23,6 +23,7 @@
 
 
 
+/* index.css */
 
 
 /* body */
@@ -48,7 +49,7 @@
     color: #FFFFFF;
 }
 
-.logo-primary {
+.logo-web {
    color:var(--accent-color);
 }
 
@@ -133,6 +134,8 @@
     background-color: var(--button-br-color);
 }
 
+/* footer */
+
 .footer {
     background-color: var(--footer-br-color);
 }
@@ -144,3 +147,12 @@
 .footer .link {
     color: rgba(255, 255, 255, 0.6)
 }
+
+
+
+
+
+/* portfolio.css */
+
+
+
