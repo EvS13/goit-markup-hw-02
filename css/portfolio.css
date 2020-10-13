@@ -1,3 +1,4 @@
+
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -10,95 +11,15 @@
 }
 
 
-
-
-/* основной цвет текста #757575 */
-/* вторичный цвет текста #212121 */
-/* лого #000000 */
-/* лого2 #2196F3 */
-/* цвет заливки подвала #2F303A */
-/* кнопка #FFFFFF */
-/* вторичный цвет заливки #F5F4FA */
-/* первичный цвет заливки #FFFFFF */
-
-
-
-
-/* portfolio.css */
-
-
-/* body */
-
-.body {
-    background-color: #ffffff;
-    color: var(--primary-text-color);
-}
-/* header */
-
-.header {
-    background-color: #ffffff;
+.project .button {
     color: var(--title-text-color);
-}
+   background-color: var(--secondary-br-color);
 
-/* logo */
 
-.logo{
-    color: #000000 ;
-}
-
-.logo-footer {
-    color: #FFFFFF;
-}
-
-.logo-web {
-   color:var(--accent-color);
-}
-
-.list {
+ .list {
     list-style: none;
-}
+ }
 
-/* site-nav */
-
-.site-nav .link {
+.project .title {
     color: var(--title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
-}
-
-/* link-nav */
-
-.link-nav .link {
-    color: var(--primary-text-color);
-}
-
-.link-nav .link:hover,
-.link-nav .link:focus {
-    color:  var(--accent-color);
-}
-
-/* footer */
-
-.footer {
-    background-color: var(--footer-br-color);
-}
-
-.address {
-    color: #FFFFFF;
-}
-
-.footer .link {
-    color: rgba(255, 255, 255, 0.6)
-}
-
-.project-list .button {
-    color: var(--title-text-color);
-    background-color: var(--secondary-br-color);
 }

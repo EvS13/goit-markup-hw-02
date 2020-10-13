@@ -1,0 +1,105 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --button-br-color: #2196F3;
+    --button-color: #FFFFFF;
+    --primary-br-color:#FFFFFF;
+    --secondary-br-color:#F5F4FA;
+    --footer-br-color: #2F303A;
+}
+
+
+
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* лого #000000 */
+/* лого2 #2196F3 */
+/* цвет заливки подвала #2F303A */
+/* кнопка #FFFFFF */
+/* вторичный цвет заливки #F5F4FA */
+/* первичный цвет заливки #FFFFFF */
+
+
+
+
+/* portfolio.css */
+
+
+/* body */
+
+.body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+/* header */
+
+.header {
+    background-color: #ffffff;
+    color: var(--title-text-color);
+}
+
+/* logo */
+
+.logo{
+    color: #000000 ;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.logo-web {
+   color:var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* link-nav */
+
+.link-nav .link {
+    color: var(--primary-text-color);
+}
+
+.link-nav .link:hover,
+.link-nav .link:focus {
+    color:  var(--accent-color);
+}
+
+.button {
+    color: var(--button-color);
+    background-color: var(--button-br-color);
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-br-color);
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.footer .link {
+    color: rgba(255, 255, 255, 0.6)
+}
+
