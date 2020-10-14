@@ -28,15 +28,15 @@
     color: var(--title-text-color);
 }
 
-.button {
+/* .button {
     color:var(--title-text-color);
     background-color: var(--accent-color);
 
-}
+} */
 
 .button.secondary {
     color: var(--title-text-color);
-    background-color: var(--accent-color);
+    background-color: var(--secondary-br-color);
 }
 
 .button:hover,
