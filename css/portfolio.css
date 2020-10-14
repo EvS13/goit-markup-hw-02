@@ -29,13 +29,14 @@
 }
 
 .button {
-    color:var(--title-text-color)
-    background-color: var(--secondary-br-color);
+    color:var(--title-text-color);
+    background-color: var(--accent-color);
+
 }
 
 .button.secondary {
     color: var(--title-text-color);
-    background-color: var(--secondary-br-color)
+    background-color: var(--accent-color);
 }
 
 .button:hover,
