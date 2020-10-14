@@ -3,7 +3,6 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --button-br-color: #2196F3;
     --button-color: #FFFFFF;
     --primary-br-color:#FFFFFF;
     --secondary-br-color:#F5F4FA;
@@ -11,15 +10,36 @@
 }
 
 
-.project .button {
-    color: var(--title-text-color);
-   background-color: var(--secondary-br-color);
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* кнопка #FFFFFF */
+/* первичный цвет заливки #FFFFFF */
+/* вторичный цвет заливки  #F5F4FA */
+/* цвет заливки подвала #2F303A */
+
 
 
  .list {
     list-style: none;
  }
 
-.project .title {
+.title {
     color: var(--title-text-color);
+}
+
+.button {
+    color:var(--title-text-color)
+    background-color: var(--secondary-br-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-br-color)
+}
+
+.button:hover,
+.button:focus {
+    color: var(--button-color);
+    background-color: var(--accent-color);
 }
