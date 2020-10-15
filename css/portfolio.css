@@ -41,6 +41,17 @@
     text-decoration: none;
 }
 
+.logo-footer {
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
 /* nav */
 
 .site-nav .link {
@@ -56,6 +67,11 @@
 
  .list {
     list-style: none;
+}
+
+.link-nav .link{
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 /* title */
@@ -114,16 +130,11 @@
     letter-spacing: 0.03em;
 }
 
-.logo-footer {
+.address {
     color: #FFFFFF;
-    font-family: Raleway, sans-serif;
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+    font-style: normal;
 }
+
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
