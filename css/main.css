@@ -8,14 +8,14 @@
     --footer-br-color:#2F303A;
 }
 
-
-/* основной цвет текста #757575 */
-/* вторичный цвет текста #212121 */
-/* акцент #2196F3 */
-/* кнопка #FFFFFF */
-/* первичный цвет заливки #FFFFFF */
-/* вторичный цвет заливки  #F5F4FA */
-/* цвет заливки подвала #2F303A */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
 
 /* body */
@@ -123,6 +123,8 @@
 .hero .title {
     margin-top: 0;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
     color: #ffffff;
     width: 696px;
     font-weight: 900;
@@ -165,6 +167,7 @@
 .work {
     outline: 2px solid tomato;
 }
+
 
 .work .title,
 .team .team-title {
